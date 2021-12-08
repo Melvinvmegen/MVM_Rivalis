@@ -1,5 +1,5 @@
 <template lang="pug">
-section#results.py-15.text-center.section--dark
+section#results.py-md-15.py-10.text-center.section--dark
   .container
     h2.after Les résultats
     br

@@ -1,5 +1,5 @@
 <template lang="pug">
-#whom.py-15
+#whom.py-md-15.py-10
   v-container
     h2.text-center.mb-10.text-primary.after Qui suis je ?
     v-row.justify-center

@@ -1,5 +1,5 @@
 <template lang="pug">
-section#how.py-15.section--light
+section#how.py-md-15.py-10.section--light
   v-container
   h2.text-center.mb-10.after Comment je travaille ?
   br
