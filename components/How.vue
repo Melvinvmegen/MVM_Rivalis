@@ -1,16 +1,16 @@
 <template lang="pug">
 section#how.py-15.section--light
-    v-container
-    h2.text-center.mb-10.after Comment je travaille ?
-    br
-    v-row.justify-center
-        v-col(lg=2 md=3 v-for='hows in howSchema' :key='hows')
-          .section--light
-              v-col.d-flex(md=12)
-                v-avatar.mx-auto.dashed(color='' size='75')
-                    v-icon(x-large color='primary') {{ hows.icon }}
-              v-card-subtitle.font-weight-medium.text-center.primary--text.font-weight-bold {{ hows.title }}
-              v-card-text.text-center {{ hows.text }}
+  v-container
+  h2.text-center.mb-10.after Comment je travaille ?
+  br
+  v-row.justify-center
+    v-col(lg=2 md=3 v-for='hows in howSchema' :key='hows.title')
+      .section--light
+          v-col.d-flex(md=12)
+            v-avatar.mx-auto.dashed(color='' size='75')
+                v-icon(x-large color='primary') {{ hows.icon }}
+          v-card-subtitle.font-weight-medium.text-center.primary--text.font-weight-bold {{ hows.title }}
+          v-card-text.text-center {{ hows.text }}
 </template>
 
 <script>
