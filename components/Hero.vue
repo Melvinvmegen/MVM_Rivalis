@@ -30,10 +30,7 @@ export default {
 </script>
 
 <style scoped>
-  h1 {
-    font-size: 2.5rem
-  }
-  
+
   .hero {
     position: relative;
     align-items: center;
@@ -70,19 +67,28 @@ export default {
     .hero-image {
       width: 300px
     }
-
-    h1 {
-      font-size: 2rem
-    }
   }
 
   @media (max-width: 450px) { 
+    .hero {
+      margin-top: -3rem;
+      min-height: calc(100vh - 6rem);
+    }
+
     .hero-image {
       width: 250px
     }
+  }
 
-    h1 {
-      font-size: 1.5rem
+  @media (max-width: 420px) { 
+    .hero-image {
+      width: 200px
+    }
+  }
+
+  @media (max-width: 380px) { 
+    .hero-image {
+      width: 175px
     }
   }
 
