@@ -74,6 +74,10 @@ export default {
     src: url('~assets/Montserrat-Regular.ttf') format('truetype');
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   .v-application a {
     text-decoration: none;
   }
